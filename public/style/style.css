@@ -66,7 +66,6 @@ form input[type=submit]{
 /* Style for main section */
 
 main{
-    border: 1px solid black;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -105,4 +104,36 @@ li{
 .fa-trash-o{
     font-size:26px;
     color:red
+}
+
+#section-buttons{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#section-buttons input{
+    width: 75px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    margin: 2px;
+}
+
+.todo-buttons{
+    background-color: #3387ED;
+}
+
+#signup-button{
+    background-color: #3498db; 
+}
+
+#login-button{
+    color: white;
+    background-color: #04AA6D;
 }
