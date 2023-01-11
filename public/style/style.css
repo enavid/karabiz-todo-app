@@ -23,7 +23,6 @@ body{
 }
 
 header{
-    /* border: 1px solid red; */
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -32,7 +31,78 @@ header{
     height: 30%;
 }
 
+/* Style for header section */
+
 header p {
     font-size: 24px;
+    font-weight: bold;
     color: #3387ED;
+}
+
+#input-form{
+    display: flex;
+    justify-content: space-between;
+    width: 88%;
+    height: 20%;
+}
+    
+form input[type=text]{
+    border: 2px solid #20bf6b;
+    border-radius: 10px;
+    outline: none;
+    padding: 18px;
+    width: 80%;
+}
+
+form input[type=submit]{
+    border:none;
+    border-radius: 10px;
+    width: 80px;
+    height: 50px;
+    background-color: #3387ED;
+
+}
+
+/* Style for main section */
+
+main{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 60%;
+}
+
+section{
+    width: 100%;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style-type: none;
+    width: 100%;
+}
+
+li{
+    border: 2px solid #20bf6b;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 88%;
+    padding: 18px;
+    margin: 5px;
+}
+
+.fa-pencil{
+    font-size:18px
+}
+
+.fa-trash-o{
+    font-size:26px;
+    color:red
 }
